@@ -1,0 +1,41 @@
+# Environment
+.env
+.env.local
+*.env
+
+# PHP
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.python-version
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Local config / secrets
+config.local.php
+config.local.json
+*.key
+*.pem
+
+# Build / run artifacts
+*.log
+*.pid
+node_modules/
+
+# Captured/uploaded images at dev time (real storage path TBD)
+storage/
+uploads/
+
+# Model files (local cache, not in repo)
+models/
+*.gguf
